@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quizApp.css"> <!-- Lien vers votre fichier CSS -->
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div id="quiz">
+            <h2 id="question">Question text goes here</h2>
+            <ul id="answer-options">
+                <li><button class="answer-btn">Answer 1</button></li>
+                <li><button class="answer-btn">Answer 2</button></li>
+                <li><button class="answer-btn">Answer 3</button></li>
+                <li><button class="answer-btn">Answer 4</button></li>
+            </ul>
+        </div>
+        <p id="timer">Time left: 10 seconds</p> <!-- Espace pour afficher le chronomètre -->
+        <p id="feedback"></p> <!-- Espace pour afficher les retours sur les réponses -->
+        <button id="next-btn">Next</button>
+        <p id="score-display">Score: 0</p> <!-- Espace pour afficher le score -->
+    </div>
+
+    
+    <script src="quizApp.js"></script> <!-- Lien vers votre fichier JavaScript -->
+</body>
+</html>
